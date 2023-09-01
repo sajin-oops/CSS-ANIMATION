@@ -1,0 +1,19 @@
+.ak{
+  height: 200px;
+  width: 200px;
+  margin: 2px;
+  background: linear-gradient(rgb(0, 156, 181) ,rgb(0, 247, 255),rgb(0, 255, 140));
+  animation: myanimation 6s;
+  position: relative;
+  border-radius: 200px;
+}
+
+
+@keyframes myanimation{
+  0%{  background: rgb(250, 159, 159); left:0px; top:0px;}
+  25%{ background:rgb(51, 169, 215); left: 200px; top: 0px; }
+  50%{background: rgb(75, 2, 80);left: 200px; top: 200px;}
+  75%{background: rgb(239, 120, 120);left:0px; top: 200px;}
+  100%{background: orchid; left: 0px; top: 0px;}
+} 
+
